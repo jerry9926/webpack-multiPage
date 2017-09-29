@@ -3,6 +3,8 @@
 该项目目的在于创建一个基于webpack多页面应用时，可以基于这个项目快速开发。
 
 ##目录结构
+
+```
 ├─ dist             存放打包后代码
 ├─ gulpfile.js
 ├─ node_modules
@@ -17,6 +19,7 @@
 ├─ src/js/pages     js的页面逻辑文件夹
 ├─ src/js/pages/demo-01.js          某个js页面逻辑
 └─ webpack.config.js
+```
 
 ##注意点
 - 本项目中，以pages里面的js文件集合为入口。一个模版文件对应一个js页面逻辑文件，并且html模版名与js名一一对应。
